@@ -1,0 +1,13 @@
+<!--miniprogram/pages/seache/seache.wxml-->
+<import src="../components/seach/seach" />
+<import src="../components/movieItem/movieItem" />
+<view class="container">
+	<template is="seach"></template>
+	<view class="main">
+		<block wx:for="{{itemList}}" wx:for-item="item" wx:key="index">
+			<view bindtap="router" data-id="{{item._id}}">
+				<template is="movieItem" data="{{...item}}"></template>
+			</view>
+		</block>
+	</view>
+</view>

@@ -1,0 +1,15 @@
+/* pages/components/scroll/scroll.wxss */
+.lb .Humzi .ALWfo{
+  width: 25%;
+  
+}
+.lb .Humzi .ALWfo .iLINIY{
+  width: 100%;
+}
+.lb .Humzi .ALWfo .iLINIY .jXFKFG{
+  width: 80%;
+  height: 120rpx;
+}
+.lb .Humzi .ALWfo .iLINIY .hKaypx{
+  margin-left: 40rpx;
+}

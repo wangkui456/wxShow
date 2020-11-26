@@ -1,0 +1,71 @@
+.page-header{
+  width: 100%;
+  height: 250rpx;
+  background-color: rgb(255, 88, 10);
+  overflow: hidden;
+}
+.page-header .header{
+  color: white;
+  font-size: 60rpx;
+  float: left;
+  margin: 30rpx;
+}
+.has-list{
+  width: 100%;
+}
+.has-list .wrapper-img{
+  width: 100%;
+  position: relative;  
+}
+.has-list .wrapper-img image{
+  width: 40%;
+  height: 300rpx; 
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 400rpx;
+  right: 0;
+  bottom: 0;
+}
+.has-list .wrapper-t1{
+  width: 100%;
+  position: relative;  
+}
+.has-list .wrapper-t1 view{
+  margin: auto;
+  position: absolute;
+  left: 29%;
+  top: 400rpx;
+  right: 0;
+  bottom: 0;
+  font-size: 40rpx;
+}
+.has-list .wrapper-t2{
+  width: 100%;
+  position: relative;  
+}
+.has-list .wrapper-t2 view{
+  margin: auto;
+  position: absolute;
+  left: 18%;
+  top: 470rpx;
+  right: 0;
+  bottom: 0;
+  font-size: 35rpx;
+}
+.has-list .wrapper-but{
+  width: 100%;
+  position: relative;  
+}
+.has-list .wrapper-but view{
+  width: 200rpx;
+  height: 100rpx;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 550rpx;
+  margin-left: -100rpx;
+  border: solid 1px rgb(199, 199, 199);
+  font-size: 60rpx;
+}

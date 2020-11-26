@@ -1,0 +1,33 @@
+/**index.wxss**/
+@import "../components/seach/seach";
+@import "../components/movieItem/movieItem";
+@import "../components/scroll/scroll";
+.container{
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+/* 搜索 */
+/* 图片自动轮播 */
+.zdlb{
+  width: 100%;
+}
+.zdlb .dealcard image{
+  width: 100%;
+  height: 400rpx;
+}
+/* 轮播 */
+.lb{
+  width: 100%;
+}
+.lb .Humzi{
+  width: 100%;
+  display: flex;
+  padding-bottom: 50rpx;
+  
+}
+
+/* 商品 */
+.main{
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+<!--miniprogram/pages/shopDetail/shopDetail.wxml-->
+<view class="cont">
+	<!-- 商品图片 -->
+	<view class="sptp">
+		<image src="{{film.picUrl}}"></image>
+	</view>
+	<!-- 价格商品名称 -->
+	<view class="spname">
+		<view class="spjg">￥<text>{{film.marketPrice}}</text></view>
+		<view class="spmc">{{film.title}}</view>
+	</view>
+	<!-- 购买 -->
+	<view class="gm">
+		<button class="gman" bindtap="zf">确定购买</button>
+	</view>
+	<!-- 评论 -->
+	<view class="plq">
+		<view class="pl">商品评论</view>
+		<block wx:for="{{sppl}}" wx:for-item="item" wx:key="index">
+			<view class="plnn">
+				<view class="yhm">{{item.displayUserNick}}</view>
+				<view class="yhpf">{{item.rateContent}}</view>
+				<view class="pltp">
+					<block wx:for="{{item.pics}}" wx:for-item="item1" wx:key="index">
+						<image src="{{item1}}"></image>
+					</block>
+				</view>
+			</view>
+		</block>
+	</view>
+
+</view>

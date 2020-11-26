@@ -1,0 +1,27 @@
+/* pages/components/seach/seach.wxss */
+
+.seach{
+  height: 100rpx;
+  background-color: #ff852a;
+}
+.seach .logo{
+  height: 60rpx;
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  font-size: 40rpx;
+}
+.seach input{
+  width: 70%;
+  height: 60rpx;
+  background-color: #ff4e22;
+  float: left;
+  margin-top: 20rpx;
+  margin-right: 10rpx;
+  border-radius: 30rpx;
+}
+.seach .ss{
+  margin-top: 20rpx;
+  float: right;
+  margin-right: 50rpx;
+}

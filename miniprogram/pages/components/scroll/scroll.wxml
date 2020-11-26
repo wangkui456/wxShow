@@ -1,0 +1,13 @@
+<!--pages/components/scroll/scroll.wxml-->
+<template name="scroll">
+	<view class="ALWfo">
+		<view class="iLINIY">
+			<image src="../../public/lb/lbb1.png" class="jXFKFG"></image>
+			<view class="hKaypx">新品</view>
+		</view>
+		<view class="iLINIY">
+			<image src="../../public/lb/lbb2.png" class=" jXFKFG"></image>
+			<view class="hKaypx">充值</view>
+		</view>
+	</view>
+</template>

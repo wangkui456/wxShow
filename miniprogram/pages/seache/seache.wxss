@@ -1,0 +1,6 @@
+/* miniprogram/pages/seache/seache.wxss */
+@import "../components/seach/seach";
+@import "../components/movieItem/movieItem";
+.container{
+  width: 100%;
+}

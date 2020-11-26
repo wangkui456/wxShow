@@ -1,0 +1,19 @@
+<view class="container">
+	<view class="userinfo">
+		<view class="info-bg">
+			<image src="/asset/icon/headBG.png"></image>
+		</view>
+		<view class="info-content">
+    
+			<block wx:if="{{canIUse}}">
+				<navigator url="/pages/components/uphead/uphead">
+				<view class="info-phone">
+					<image src="{{userimg}}"></image>
+				</view>
+				</navigator>
+				<text class="info-name">{{username}}</text>
+			</block>
+			<button class="get-btn" wx:else open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"> 获取头像昵称</button>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,58 @@
+/* pages/xjwj/xjwj.wxss */
+.userinfo {
+  position: relative;
+}
+
+.info-bg image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 300rpx;
+  z-index: 1
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column; /* 子元素竖向排列 */
+  justify-content: center; /* 相对父元素水平居中 */
+  align-items: center; /*  子元素相对父元素垂直居中 */
+  width: 750rpx;
+  height: 300rpx;
+  position: relative;
+  z-index: 2;
+}
+.info-phone{
+  width: 108rpx;
+  height: 108rpx;
+  line-height: 44rpx;
+  font-weight: normal;
+}
+.info-phone image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.info-name{
+  margin-top: 30rpx;
+  font-size: 66rpx;
+}
+
+.get-btn {
+  width: 200rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  font-weight: normal;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  font-size: 40rpx;
+}

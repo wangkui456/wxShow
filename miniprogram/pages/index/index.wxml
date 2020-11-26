@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<import src="../components/movieItem/movieItem" />
+<import src="../components/scroll/scroll" />
+<import src="../components/seach/seach" />
+<view class="container">
+	<!-- 搜索 -->
+	<template is="seach"></template>
+	<!-- 自动轮播 -->
+	<view class="zdlb">
+		<view class="dealcard">
+			<swiper indicator-dots='true' circular="true" indicator-active-color='#e54847' autoplay='true' easing-function='easeInOutCubic'>
+				<swiper-item>
+					<image src="../../public/lb/lb1.jpg"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="../../public/lb/lb2.jpg"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="../../public/lb/lb3.jpg"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="../../public/lb/lb4.jpg"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="../../public/lb/lb5.jpg"></image>
+				</swiper-item>
+			</swiper>
+		</view>
+	</view>
+	<!-- 轮播 -->
+	<view class="lb">
+		<scroll-view scroll-x>
+			<view class="Humzi">
+				<template is="scroll"></template>
+				<template is="scroll"></template>
+				<template is="scroll"></template>
+				<template is="scroll"></template>
+			</view>
+		</scroll-view>
+	</view>
+	<!-- 商品 -->
+	<view class="main">
+		<block wx:for="{{itemList}}" wx:for-item="item" wx:key="index">
+			<view bindtap="router" data-id="{{item._id}}">
+			<template is="movieItem" data="{{...item}}"></template>
+			</view>
+		</block>
+	</view>
+</view>

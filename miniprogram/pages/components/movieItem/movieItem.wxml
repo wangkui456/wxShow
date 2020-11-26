@@ -1,0 +1,14 @@
+<!--pages/components/movieItem/movieItem.wxml-->
+<template name="movieItem">
+	<view class="main-item">
+		<image class="main-img" src="{{picUrl}}"></image>
+		<view class="main-ma">
+			<view class="main-title">{{title}}</view>
+			<view class="main-price-box">
+				<view class="c1">￥</view>
+				<view class="c2">{{marketPrice}}</view>
+				<view class="c3">{{extMap.recExc}}</view>
+			</view>
+		</view>
+	</view>
+</template>

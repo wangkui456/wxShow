@@ -1,0 +1,6 @@
+<!--miniprogram/pages/components/uphead/uphead.wxml-->
+<view>
+  <image src="{{userimg}}" bindtap="getPhone"></image>
+  <button bindtap="handleBtn">点击切换图片</button>
+</view>
+

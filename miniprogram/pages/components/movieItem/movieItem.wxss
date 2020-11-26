@@ -1,0 +1,42 @@
+/* pages/components/movieItem/movieItem.wxss */
+.main-item{
+  width: 46%;
+  height: 500rpx;
+  margin: 15rpx;
+  float: left;
+  margin-top: 40rpx;
+}
+.main-item .main-img{
+  width: 100%;
+  height: 310rpx;
+  border-top-left-radius:10rpx ;
+  border-top-right-radius:10rpx ;
+}
+.main-item .main-ma{
+  margin-top: -10rpx;
+  border-bottom-left-radius:10rpx ;
+  border-bottom-right-radius: 10rpx;
+}
+.main-item .main-ma .main-title{
+  font-size: 35rpx;
+  margin-top: 20rpx;
+}
+.main-item .main-ma .main-price-box{
+  width: 100%;
+  display: flex;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.main-item .main-ma .main-price-box view{
+  margin-right: 10rpx;
+}
+.main-item .main-ma .main-price-box .c1{
+  color: tomato;
+}
+.main-item .main-ma .main-price-box .c2{
+  color: tomato;
+
+}
+.main .main-item .main-ma .main-price-box .c3{
+  color: #525252;
+}

@@ -1,0 +1,8 @@
+<!--pages/components/seach/seach.wxml-->
+<template name="seach">
+	<view class="seach">
+		<view class="logo">买</view>
+		<input type="text" value='{{search}}' bindinput="bindName" ></input>
+		<view class="ss" bindtap="seach">搜索</view>
+	</view>
+</template>

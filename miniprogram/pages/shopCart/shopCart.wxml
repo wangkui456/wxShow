@@ -1,0 +1,21 @@
+<view>
+	<view class="page-header">
+		<text class="header">购物车</text>
+	</view>
+	<view class="has-list">
+		<view class="tpl-wrapper">
+			<view class="wrapper-img">
+				<image src="../../public/lb/gwc.webp"></image>
+			</view>
+			<view class="wrapper-t1">
+				<view>购物车竟然是空的</view>
+			</view>
+			<view class="wrapper-t2">
+				<view>再忙，也要记得买点什么犒赏自己~</view>
+			</view>
+			<view  class="wrapper-but">
+				<view>去逛逛</view>
+			</view>
+		</view>
+	</view>
+</view>
